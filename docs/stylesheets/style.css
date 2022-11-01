@@ -1,5 +1,41 @@
-h1 {
-  color: #eee;
+
+
+:root {
+
+  --color-text: #281C30;
+  --color-a: #463054;
+  --color-background:#EEF0E1;
+
+  --font-sans: "Joan", serif;
+}
+/*# sourceMappingURL=style.css.map */
+
+a {
+  color: var(--color-a);
 }
 
-/*# sourceMappingURL=style.css.map */
+html {
+ scroll-behavior: smooth; 
+ background-color: var(--color-background);
+ color: var(--color-text);
+ width: 100%;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  font-size: 1.333rem;
+  width: 100%;
+}
+
+@media (max-width: 768px){
+  .navbar {
+    align-content: center;
+  }
+  h1 {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+}
