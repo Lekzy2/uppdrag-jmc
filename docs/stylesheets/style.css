@@ -4,6 +4,7 @@
 
   --color-text: #281C30;
   --color-a: #463054;
+  --color-a-hover: #724d8a;
   --color-background:#EEF0E1;
 
   --font-sans: "Joan", serif;
@@ -12,30 +13,143 @@
 
 a {
   color: var(--color-a);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-a-hover); 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+body {
+  scroll-behavior: smooth; 
+  background-color: var(--color-background);
+  color: var(--color-text);
+  width: 100%;
+  font-family: 'Oxygen';font-size: 22px;
+  display: flex;
+  margin-top: 5%;
 }
 
-html {
- scroll-behavior: smooth; 
- background-color: var(--color-background);
- color: var(--color-text);
- width: 100%;
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+img {
+  display: flex;
+}
+
+footer {
+  width: 100%;
+}
+hr.contentbreaker {
+  border-top: 1px solid --color-text;
 }
 
 .navbar {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
-  font-size: 1.333rem;
   width: 100%;
+}
+
+.boxrestriction {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contentbox {
+  width: 100%;
+  padding: 1rem;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: inherit;
+}
+.link-spacer {
+  margin-top: 10%;
+}
+
+@media (min-width: 769px){
+  .boxrestriction {
+
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  
+  .contentbox {
+    display: flex;
+    margin-right: 20px;
+  }
+  img {
+    max-width: 70%;
+   
+  }
 }
 
 @media (max-width: 768px){
   .navbar {
     align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
   }
+  .boxrestriction {
+    width: 100%;
+  }
+
+  .contentbox {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hidden-mobile {
+    display: none;
+  }
+
   h1 {
     margin-left: 0px;
     margin-right: 0px;
     width: 100%;
+  }
+  body {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .arrow {
+    border: solid var(--color-text);
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 6px;
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
   }
 }
