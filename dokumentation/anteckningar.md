@@ -37,6 +37,7 @@ Nej
 * Jag har tittat så att github hosting fungerar
 * Jag har validerat sidan med https://validator.nu/ och fick inga errors allt var 🟢
 * Jag använde https://jigsaw.w3.org/css-validator/ märkte ett fel och fixade felet (parsningfel var saknades i en var(--color-text) på rad 54 i style.css.
+* Använt bara fel med tomma länkar men har ingenstans att länka dem eftersom det skulle kräva resurser jag inte har. Samnt ett par empty formlabels
 * 
 
 ### Problem?

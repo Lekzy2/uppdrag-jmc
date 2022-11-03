@@ -14,8 +14,8 @@ Dokumentera hur du testat din webbplats. Anteckna eventuella resultat, ändringa
 * [🟢] Sidan följer alla relevanta lagar och regler för publicering på webben.
 * [🟢] Testa att öppna sidan på en mobiltelefon.
 * [🟢] Testa att öppna sidan på en dator.
-* [ ] Kör WAVE, inga fel, arbeta med varningar.
-* [ ] Sidans media är optimerat, ex. bildstorlek och upplösning.
-* [ ] Sidan fungerar utan javascript.
-* [ ] Sidan fungerar utan CSS.
+* [🟢] Kör WAVE, inga fel, arbeta med varningar.
+* [🟢] Sidans media är optimerat, ex. bildstorlek och upplösning.
+* [🟢] Sidan fungerar utan javascript.
+* [🟢] Sidan fungerar utan CSS.
 * [ ] Kör lighthouse i Google Chrome devtools.
