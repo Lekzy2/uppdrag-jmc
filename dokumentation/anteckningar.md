@@ -29,9 +29,16 @@
 ### Problem?
 Nej
 
-# 3 november 2022
 
+# 3 november 2022
 ## Vad jag gjort
 * Jag har gjort about pagen samt publication
 * har fixat css för att kunna göra about och publication
 * Jag har tittat så att github hosting fungerar
+* Jag har validerat sidan med https://validator.nu/ och fick inga errors allt var 🟢
+* Jag använde https://jigsaw.w3.org/css-validator/ märkte ett fel och fixade felet (parsningfel var saknades i en var(--color-text) på rad 54 i style.css.
+* 
+
+### Problem?
+
+* 
