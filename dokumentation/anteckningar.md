@@ -29,4 +29,9 @@
 ### Problem?
 Nej
 
-# 
+# 3 november 2022
+
+## Vad jag gjort
+* Jag har gjort about pagen samt publication
+* har fixat css för att kunna göra about och publication
+* Jag har tittat så att github hosting fungerar
