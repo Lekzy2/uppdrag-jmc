@@ -38,8 +38,12 @@ Nej
 * Jag har validerat sidan med https://validator.nu/ och fick inga errors allt var 🟢
 * Jag använde https://jigsaw.w3.org/css-validator/ märkte ett fel och fixade felet (parsningfel var saknades i en var(--color-text) på rad 54 i style.css.
 * Använt bara fel med tomma länkar men har ingenstans att länka dem eftersom det skulle kräva resurser jag inte har. Samnt ett par empty formlabels
-* 
+* Körde Lighthouse och fick 
+
+![NTI Gymnasiet Umeå Logo](ok.png)
+
+Performance ska vara delvis fixat pga ändring av png till webp men är nöjd med resten
 
 ### Problem?
-
-* 
+* Hade lite problem med att få till sticky på sidebaren men är lugnt
+* Hade väldigt svårt att hitta information angående hur man skapade en hover låda men lyckades fixa i slutändan
