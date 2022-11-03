@@ -18,4 +18,4 @@ Dokumentera hur du testat din webbplats. Anteckna eventuella resultat, ändringa
 * [🟢] Sidans media är optimerat, ex. bildstorlek och upplösning.
 * [🟢] Sidan fungerar utan javascript.
 * [🟢] Sidan fungerar utan CSS.
-* [ ] Kör lighthouse i Google Chrome devtools.
+* [🟢] Kör lighthouse i Google Chrome devtools.
