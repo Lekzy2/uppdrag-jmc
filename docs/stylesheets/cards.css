@@ -1,0 +1,22 @@
+.myDIV:hover + .hidden {
+    display: block;
+    position: absolute;
+    width: auto;
+    height: fit-content;
+    background-color: var(--color-background);
+    padding: 1rem;
+    color: var(--color-text);
+    border: 5px solid var(--color-backgroundshadow);
+    border-radius: 5%;
+  }
+  .myDIV2:hover + .hidden {
+    display: block;
+    position: absolute;
+    width: 17%;
+    height: fit-content;
+    background-color: var(--color-background);
+    padding: 1rem;
+    color: var(--color-text);
+    border: 5px solid var(--color-backgroundshadow);
+    border-radius: 5%;
+  }
