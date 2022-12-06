@@ -47,3 +47,13 @@ Performance ska vara delvis fixat pga ändring av png till webp men är nöjd me
 ### Problem?
 * Hade lite problem med att få till sticky på sidebaren men är lugnt
 * Hade väldigt svårt att hitta information angående hur man skapade en hover låda men lyckades fixa i slutändan
+
+# 6 december 2022
+## Vad har jag gjort
+* jag har fixat så att contact är länkad med hjälp av "mailto:text"
+
+## Vad ska jag göra
+* Jag ska anteckna lite extra om hamburgar menyn
+* Jag ska gå igenom github pages för att titta så allt fungerar
+* Jag ska felsöka med hjälp av wave
+* fixa webp med allteningen <picture> <src></src> </picture> eller byta fromat till png eller jpg
