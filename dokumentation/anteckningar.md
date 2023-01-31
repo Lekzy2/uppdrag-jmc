@@ -45,6 +45,8 @@ Nej
 Performance ska vara delvis fixat pga ändring av png till webp men är nöjd med resten
 
 ### Problem?
+* Publications till publications funkar inte på mobil
+* Lite problem med att få allt att funka på pages pga en stor bokstav i publications (fixat)
 * Hade lite problem med att få till sticky på sidebaren men är lugnt
 * Hade väldigt svårt att hitta information angående hur man skapade en hover låda men lyckades fixa i slutändan
 
