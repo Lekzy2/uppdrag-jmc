@@ -45,7 +45,6 @@ Nej
 Performance ska vara delvis fixat pga ändring av png till webp men är nöjd med resten
 
 ### Problem?
-* Publications till publications funkar inte på mobil (tittar efter lösning)
 * Lite problem med att få allt att funka på pages pga en stor bokstav i publications (fixat)
 * Hade lite problem med att få till sticky på sidebaren men är lugnt
 * Hade väldigt svårt att hitta information angående hur man skapade en hover låda men lyckades fixa i slutändan
@@ -59,3 +58,12 @@ Performance ska vara delvis fixat pga ändring av png till webp men är nöjd me
 * Jag ska gå igenom github pages för att titta så allt fungerar
 * Jag ska felsöka med hjälp av wave
 * fixa webp med allteningen <picture> <src></src> </picture> eller byta fromat till png eller jpg
+
+# 31 Januari 2023
+
+## Vad jag gjort
+* Fixat publication till poblication och tittat så det funkar på pages
+* ändrat bildformatet från WebP till jpg för WebP funkar inte för vissa webläsare?
+
+## Problem
+* Publications till publications funkar inte på mobil eller dator (stod publications.html istället för publication.html)Problem löst både mobil och dator.
