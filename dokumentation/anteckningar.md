@@ -65,5 +65,10 @@ Performance ska vara delvis fixat pga ändring av png till webp men är nöjd me
 * Fixat publication till poblication och tittat så det funkar på pages
 * ändrat bildformatet från WebP till jpg för WebP funkar inte för vissa webläsare?
 
+## extra
+https://codepen.io/alvarotrigo/pen/MWEJEWG hamburgar
+
 ## Problem
 * Publications till publications funkar inte på mobil eller dator (stod publications.html istället för publication.html)Problem löst både mobil och dator.
+* Wave har en error om tom länk, verkar ha med att wave inte känner av hidden element som används för mobil, wave har fel. för länk behövs för mobil
+* wave diskriminerar mot hamburgare och tycker att hamburgare är tom (det enda jag kom fram till att empty label skulle kunna vara)

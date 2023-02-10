@@ -47,6 +47,8 @@ Väldigt mycket har gått bra för mig så svårt att säga något spesifikt, me
 css kunde varit stabilare och mindre utspritt men vet nu hur jag kan fixa det i framtiden. fixet är bara att skapa fler css filer tidigare och ha ett mer genomtänkt nät av vad som kommer behövas varts.
 
 Den orginella bilden på chokladen fanns inte så behövde hitta en egen. Kanske kan kontakta lärare i framtida projekt om det finns matrial som inte existerar/funkar.
+
+Dubbelkolla Github pages
 ## Sammanfattning
 Lärt mig mer om sticky, media, och hur display samt flex fungerar. Största dels har varit mer av en påminellse men har lärt mig en hel del under processen också. Finns några få saker speciellt i css som jag skulle kunnat göra effektivare och mer samlat men känner mig ändå ganska nöjd.
 
