@@ -56,3 +56,8 @@ Utvecklingsmöjligheterna för projektet skulle möjligtvis vara att länka alla
 
 
 Kunskaper som skulle kunna förbättras är css planering.
+
+### hjälpmedel
+
+* [Hamburgare meny](https://codepen.io/alvarotrigo/pen/MWEJEWG) 
+* [alternativ för hr](https://stackoverflow.com/questions/42227775/alternative-to-horizontal-rule-tag-hr-working-in-html5)

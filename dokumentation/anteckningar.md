@@ -72,3 +72,17 @@ https://codepen.io/alvarotrigo/pen/MWEJEWG hamburgar
 * Publications till publications funkar inte på mobil eller dator (stod publications.html istället för publication.html)Problem löst både mobil och dator.
 * Wave har en error om tom länk, verkar ha med att wave inte känner av hidden element som används för mobil, wave har fel. för länk behövs för mobil
 * wave diskriminerar mot hamburgare och tycker att hamburgare är tom (det enda jag kom fram till att empty label skulle kunna vara)
+
+# 4 Maj 2023
+
+## Vad jag gjort
+Footer element
+* Flyttade border/breaker samt flex elementen in i footer istället för class/divs
+* <hr> Alternativ hittades på https://stackoverflow.com/questions/42227775/alternative-to-horizontal-rule-tag-hr-working-in-html5
+
+
+## Problem
+
+
+
+## Vad ska jag fortsätta med
