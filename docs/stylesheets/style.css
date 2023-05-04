@@ -47,12 +47,17 @@ img {
   display: flex;
 }
 
+/* Flyttade alla element rörande footern till footer för att slippa ha <hr> + extra div */
 footer {
   width: 100%;
-}
-hr.contentbreaker {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
   border-top: 1px solid var(--color-text);
+  padding-bottom: 50px;
+  padding-top: 30px;
 }
+
 .center {
   align-items: center;
   text-align: center;
@@ -89,11 +94,13 @@ hr.contentbreaker {
   padding: 1rem;
 }
 
-.footer-flex {
+/* .footer-flex {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
 }
+Flyttat till Footer
+*/
 
 .underline {
   text-decoration: underline;
@@ -172,10 +179,13 @@ hr.contentbreaker {
     border-width: 0 12px 12px 0;
     display: inline-block;
     padding: 12px;
+    align-content: center;
   }
   
   .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+    margin-bottom: 30px;
+    align-content: center;
   }
 }
